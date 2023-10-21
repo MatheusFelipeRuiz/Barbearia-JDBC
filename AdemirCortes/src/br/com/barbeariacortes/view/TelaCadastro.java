@@ -5,6 +5,7 @@
 package br.com.barbeariacortes.view;
 
 import br.com.barbeariacortes.dto.Usuario;
+
 import br.ce.orlando.gerador.cpf.ValidadorCPF;
 import br.com.barbeariacortes.dao.ClienteDAO;
 import br.com.barbeariacortes.dto.ClienteDTO;
