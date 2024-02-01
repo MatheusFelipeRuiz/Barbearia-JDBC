@@ -25,7 +25,7 @@
 </div>
 
 Links:
-- [__MySQL Server__](https://dev.mysql.com/downloads/) 
+- [__MySQL Server__](https://dev.mysql.com/downloads/mysql/) 
 - [__JDK 19__](https://www.oracle.com/java/technologies/javase/jdk19-archive-downloads.html)
 - [__JRE__](https://www.java.com/pt-BR/download/manual.jsp)
 
