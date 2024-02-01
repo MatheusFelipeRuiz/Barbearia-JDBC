@@ -169,3 +169,5 @@ INSERT INTO `db_barbearia`.`tbl_funcionario` (`c_nome_funcionario`, `c_email_fun
 ('Fernanda Lima', 'fernanda.lima@ademircortes.com.br', '666.555.444-00', 'senhaabc', 2500.00, 3),
 ('Gabriel Castro', 'gabriel.castro@ademircortes.com.br', '111.222.333-00', 'senhadef', 2700.00, 2);
 
+
+SELECT * FROM tbl_funcionario tf  ;

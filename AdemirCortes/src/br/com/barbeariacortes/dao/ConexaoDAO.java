@@ -20,16 +20,19 @@ public class ConexaoDAO {
         Connection conexao = null;
         String driver = "jdbc";
         String bancoDados = "mysql";
-        String ipPorta = "localhost:3306";
+        String ipPorta = "127.0.0.1:3306";
         String baseDados = "db_barbearia";
         String user = "root";
-        String password = "";
+        String password = "12345";
+        String urlPrincipal = "";
         try {
             String url = driver + ":" + bancoDados + "://" + ipPorta + "/" + baseDados;
-            url += "?user=" + user + "&password=" + password;
+            url += "?user=" + user + "&password=" + password + "";
+            urlPrincipal = url;
             conexao = DriverManager.getConnection(url);
         } catch (SQLException exception) {
             JOptionPane.showMessageDialog(null, exception);
+            System.out.println(urlPrincipal);
         }
         return conexao;
     }
