@@ -16,7 +16,7 @@
 # Programas necessários 
 
 * Instalação do MySQL Community Server
-* Instalação do Java JRE ou JDK 19
+* Instalação do Java JRE 8 ou JDK 8+
 
           
 <div>
